@@ -1,6 +1,6 @@
 // Load the header on all pages
 document.addEventListener("DOMContentLoaded", function () {
-  fetch("/chicagobirdmigration.net/pages/header.html")
+  fetch("/https://windycitybirdlab.github.io/chicagobirdmigration.net/pages/header.html")
     .then((response) => response.text())
     .then((data) => {
       document.getElementById("header-container").innerHTML = data;
@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
 // If #markdown-content exists, load README.md into it
   const markdownContainer = document.getElementById("markdown-content");
   if (markdownContainer) {
-    fetch('README.md')
+    fetch('https://windycitybirdlab.github.io/chicagobirdmigration.net/README.md')
       .then(response => response.text())
       .then(text => {
         markdownContainer.innerHTML = marked.parse(text);
@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
       });
   };
 document.addEventListener("DOMContentLoaded", function () {
-  fetch("/chicagobirdmigration.net/pages/footer.html")
+  fetch("https://windycitybirdlab.github.io/chicagobirdmigration.net/pages/footer.html")
     .then((response) => response.text())
     .then((data) => {
       document.getElementById("footer-container").innerHTML = data;
