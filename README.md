@@ -31,7 +31,7 @@ It may not yet have been verified by an expert.
 
 ## Collaborators
 
-![Collaborators(img/collabs.jpg)
+![Collaborators](img/collabs.jpg)
 
 ## Contact
 
