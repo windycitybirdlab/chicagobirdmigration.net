@@ -1,4 +1,4 @@
-// Load the header on all pages
+// Load the header on all pages 
 document.addEventListener("DOMContentLoaded", function () {
   fetch("https://windycitybirdlab.github.io/chicagobirdmigration.net/pages/header.html")
     .then((response) => response.text())
