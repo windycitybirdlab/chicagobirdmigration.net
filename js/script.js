@@ -1,6 +1,6 @@
 // Load the header on all pages
 document.addEventListener("DOMContentLoaded", function () {
-  fetch("/chicagobirdmigration.net/header.html")
+  fetch("/chicagobirdmigration.net/pages/header.html")
     .then((response) => response.text())
     .then((data) => {
       document.getElementById("header-container").innerHTML = data;
@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
       });
   };
 document.addEventListener("DOMContentLoaded", function () {
-  fetch("/chicagobirdmigration.net/footer.html")
+  fetch("/chicagobirdmigration.net/pages/footer.html")
     .then((response) => response.text())
     .then((data) => {
       document.getElementById("footer-container").innerHTML = data;
