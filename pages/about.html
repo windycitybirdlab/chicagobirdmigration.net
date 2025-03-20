@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>About - Chicago Bird Migration Monitoring Network</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href=".../css/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  </head>
+  <body>
+    <div id="header-container"></div>
+
+    <div class="container">
+      <div id="markdown-content"></div>
+    </div>
+
+    <script src=".../js/script.js"></script>
+    <script>
+      // Fetch and render README.md
+      fetch("/README.md")
+        .then((response) => response.text())
+        .then((text) => {
+          document.getElementById("markdown-content").innerHTML =
+            marked.parse(text);
+        })
+        .catch((error) => {
+          document.getElementById("markdown-content").innerHTML =
+            "<p>Error loading content.</p>";
+          console.error("Error fetching markdown:", error);
+        });
+    </script>
+  </body>
+</html>
