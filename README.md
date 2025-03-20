@@ -1,4 +1,4 @@
-![Bird Migration](/img/birdmigration.jpg)
+![Bird Migration](img/birdmigration.jpg)
 
 The **Chicago Bird Migration Monitoring Network** is a collaborative effort to track the movements of migratory birds through Chicagoland.  
 We use **acoustics, thermal imagery, radar,** and other technologies to advance scientific understanding while bringing knowledge and awareness of migratory birds to new audiences.  
@@ -12,7 +12,7 @@ It may not yet have been verified by an expert.
 
 ## Wildlife Monitoring Station
 
-![Station](/img/station.jpg)
+![Station](img/station.jpg)
 
 ## Organizing Labs
 
@@ -31,7 +31,7 @@ It may not yet have been verified by an expert.
 
 ## Collaborators
 
-![Collaborators](.../img/collabs.jpg)
+![Collaborators(img/collabs.jpg)
 
 ## Contact
 
