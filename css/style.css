@@ -17,7 +17,7 @@ h1 {
 }
 
 h1 a {
-  color: #051952;
+  text-decoration: none;
 }
 
 sub {
@@ -44,7 +44,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #051952;
+  text-decoration: none;
   font-size: 1rem;
   font-family: Verdana, sans-serif;
   padding: 0.5rem 1rem;
@@ -94,13 +94,12 @@ h3 {
     color: #051952;
     font-family: "Outfit", sans-serif;
     font-weight: 400;
-    font-size: 1.42em
 }
 
 p {
   color: #333333;
-  font-family: Verdana, sans-serif;
+  font-family: "Roboto Flex", sans-serif;
 }
 a {
-    text-decoration: none;
+  color: #051952;
 }
