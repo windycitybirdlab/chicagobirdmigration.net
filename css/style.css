@@ -103,3 +103,8 @@ p {
 a {
   color: #051952;
 }
+
+@media (max-width: 768px) {
+    #dashboard {
+      height: 80vh !important;
+  }}
