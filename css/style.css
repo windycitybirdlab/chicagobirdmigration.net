@@ -106,5 +106,5 @@ a {
 
 @media (max-width: 768px) {
     #dashboard {
-      height: 80vh !important;
+      height: 80vh;
   }}
