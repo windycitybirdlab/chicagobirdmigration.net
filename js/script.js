@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Use the actual heights of header and footer (0 if not present)
     const headerHeight = header ? header.offsetHeight : 0;
     const footerHeight = footer ? footer.offsetHeight : 0;
-    const availableHeight = window.innerHeight - headerHeight - footerHeight - 5;
+    const availableHeight = window.innerHeight - headerHeight - footerHeight - 10;
     iframe.style.height = availableHeight + "px";
   }
 
