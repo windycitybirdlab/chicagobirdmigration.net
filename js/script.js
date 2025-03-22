@@ -1,14 +1,15 @@
 document.addEventListener("DOMContentLoaded", function () {
   function resizeIframe() {
-    const header = document.getElementById("header-container");
-    const footer = document.getElementById("footer-container");
-    const iframe = document.getElementById("dashboard");
-    if (!iframe) return;
-    const headerHeight = header ? header.offsetHeight : 0;
-    const footerHeight = footer ? footer.offsetHeight : 0;
-    const availableHeight = window.innerHeight - headerHeight - footerHeight - 10;
-    iframe.style.height = availableHeight + "px";
-  }
+  const iframe = document.getElementById("dashboard");
+  if (!iframe) return; // only run if the dashboard iframe exists
+  const header = document.getElementById("header-container");
+  const footer = document.getElementById("footer-container");
+  const headerHeight = header ? header.offsetHeight : 0;
+  const footerHeight = footer ? footer.offsetHeight : 0;
+  const availableHeight = window.innerHeight - headerHeight - footerHeight - 10;
+  iframe.style.height = availableHeight + "px";
+}
+
 
   fetch("https://windycitybirdlab.github.io/chicagobirdmigration.net/pages/header.html")
     .then(response => response.text())
