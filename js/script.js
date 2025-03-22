@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
 }
 
 
-  fetch("https://windycitybirdlab.github.io/chicagobirdmigration.net/pages/header.html")
+  fetch("/pages/header.html")
     .then(response => response.text())
     .then(data => {
       document.getElementById("header-container").innerHTML = data;
@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
     })
     .catch(error => console.error("Error loading header:", error));
 
-  fetch("https://windycitybirdlab.github.io/chicagobirdmigration.net/pages/footer.html")
+  fetch("/pages/footer.html")
     .then(response => response.text())
     .then(data => {
     const footerElement = document.getElementById("footer-container");
@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const markdownContainer = document.getElementById("markdown-content");
   if (markdownContainer) {
-    fetch('https://windycitybirdlab.github.io/chicagobirdmigration.net/README.md')
+    fetch('/README.md')
       .then(response => response.text())
       .then(text => {
         markdownContainer.innerHTML = marked.parse(text);
