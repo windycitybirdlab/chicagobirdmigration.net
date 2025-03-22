@@ -1,10 +1,10 @@
 ![Bird Migration](/img/birdmigration.jpg)
 
-The **Chicago Bird Migration Monitoring Network** is a collaborative effort to track the movements of migratory birds through Chicagoland. We use **acoustics, thermal imagery, radar,** and other technologies to advance scientific understanding while bringing knowledge and awareness of migratory birds to new audiences. This site showcases the latest bird migration data from our live network of acoustic monitoring devices across Chicagoland.
+The **Chicago Bird Migration Monitoring Network** is a collaborative effort to track the movements of migratory birds through Chicagoland. We use **acoustics, thermal imagery, radar,** and other technologies to advance scientific understanding while bringing knowledge and awareness of migratory birds to new audiences.
 
 ### Powered By Nighthawk AI
 
-Data is automatically processed with [Nighthawk AI](https://www.migrationbiology.org/software), a machine learning model for acoustic monitoring of nocturnal bird migration. It may not yet have been verified by an expert.
+This site showcases the latest bird migration data from our live network of acoustic monitoring devices across Chicagoland. The data is automatically processed with [Nighthawk AI](https://www.migrationbiology.org/software), a machine learning model for acoustic monitoring of nocturnal bird migration, and may not yet have been verified by an expert.
 
 ### Organizing Labs
 
