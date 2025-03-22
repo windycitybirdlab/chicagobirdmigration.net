@@ -12,7 +12,7 @@
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   </head>
   <body>
-    <div id="header-container"></div>
+    <header id="header-container"></header>
 
     <div class="container">
       <div id="markdown-content"></div>
@@ -20,7 +20,6 @@
 
     <script src="https://windycitybirdlab.github.io/chicagobirdmigration.net/js/script.js"></script>
     <script>
-      // Fetch and render README.md
       fetch("https://windycitybirdlab.github.io/chicagobirdmigration.net/README.md")
         .then((response) => response.text())
         .then((text) => {
