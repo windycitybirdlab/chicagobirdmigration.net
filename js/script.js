@@ -4,7 +4,6 @@ document.addEventListener("DOMContentLoaded", function () {
     const footer = document.getElementById("footer-container");
     const iframe = document.getElementById("dashboard");
     if (!iframe) return;
-    // Use the actual heights of header and footer (0 if not present)
     const headerHeight = header ? header.offsetHeight : 0;
     const footerHeight = footer ? footer.offsetHeight : 0;
     const availableHeight = window.innerHeight - headerHeight - footerHeight - 10;
@@ -25,7 +24,6 @@ document.addEventListener("DOMContentLoaded", function () {
     const footerElement = document.getElementById("footer-container");
     if (footerElement) {
       footerElement.innerHTML = data;
-      // After footer loads, update iframe size
       resizeIframe();
     }
     })
