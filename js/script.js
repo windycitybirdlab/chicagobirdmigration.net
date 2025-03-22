@@ -22,9 +22,12 @@ document.addEventListener("DOMContentLoaded", function () {
   fetch("https://windycitybirdlab.github.io/chicagobirdmigration.net/pages/footer.html")
     .then(response => response.text())
     .then(data => {
-      document.getElementById("footer-container").innerHTML = data;
+    const footerElement = document.getElementById("footer-container");
+    if (footerElement) {
+      footerElement.innerHTML = data;
       // After footer loads, update iframe size
       resizeIframe();
+    }
     })
     .catch(error => console.error("Error loading footer:", error));
 
