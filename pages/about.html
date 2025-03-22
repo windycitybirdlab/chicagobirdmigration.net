@@ -6,7 +6,7 @@
     <title>About - Chicago Bird Migration Monitoring Network</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet"/>
-    <link rel="stylesheet" href="https://windycitybirdlab.github.io/chicagobirdmigration.net/css/style.css" />
+    <link rel="stylesheet" href="/css/style.css" />
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   </head>
   <body>
@@ -14,9 +14,9 @@
     <div class="container">
       <div id="markdown-content"></div>
     </div>
-    <script src="https://windycitybirdlab.github.io/chicagobirdmigration.net/js/script.js"></script>
+    <script src="/js/script.js"></script>
     <script>
-      fetch("https://windycitybirdlab.github.io/chicagobirdmigration.net/README.md")
+      fetch("/README.md")
         .then((response) => response.text())
         .then((text) => {
           document.getElementById("markdown-content").innerHTML =
