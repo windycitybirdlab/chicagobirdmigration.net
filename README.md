@@ -4,7 +4,7 @@ The **Chicago Bird Migration Monitoring Network** is a collaborative effort to t
 
 ### Powered By Nighthawk
 
-This site showcases the latest bird migration data from our live network of acoustic monitoring devices across Chicagoland. The data is automatically processed with [Nighthawk](https://www.migrationbiology.org/software), a machine learning model for acoustic monitoring of nocturnal bird migration, and may not yet have been verified by an expert. Nighthawk received a noticeable improvement to the model in August 2025, adding new species and reducing false-positives.
+This site showcases the latest bird migration data from our live network of acoustic monitoring devices across Chicagoland. The data is automatically processed with [Nighthawk](https://www.migrationbiology.org/software), a machine learning model for acoustic monitoring of nocturnal bird migration, and may not yet have been verified by an expert. Nighthawk was significantly updated in August 2025, adding new species and reducing false positives.
 
 ### Organizing Labs
 
